@@ -1,5 +1,10 @@
 @media screen and (max-width: 425px) {
-
+    /* common shared style */
+    .common-width{
+        max-width: 25rem;
+        margin: 0 auto ;
+    }
+ /* header nav */
     .nav-container{
          flex-direction: column;
         
@@ -19,7 +24,54 @@
     .nav-btn{
         margin-top: 1rem;
     }
+/* banner section */
+.banner-container{
+    flex-direction: column-reverse;
+    
+}
+.banner-img img{
+    width: 18rem;
+    height: 100%;
+}
+.banner-title{
+    font-size: 1.5rem;
+}
+.banner-title-more{
+    
+font-size: 3rem;
 
-
-
+}
+.banner-desc{
+font-size: 0.6rem;
+}
+.primary-btn{
+   
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+   
+    margin-right: 0.5rem;
+}
+.banner-content{
+   
+    padding: 3rem;
+}
+/* online games section */
+.online-games ,.Funny-Videos{
+    font-size: 1.5rem;
+}
+.online-desc,.card-title{
+    font-size: 0.5rem;
+}
+.card-container{
+   grid-template-columns: repeat(1,1fr); 
+   
+}
+.card{
+  margin-left: 4.3rem;
+  padding: 1rem;
+}
+.card img{
+    width: 16rem;
+    height: 100%;
+}
 }
