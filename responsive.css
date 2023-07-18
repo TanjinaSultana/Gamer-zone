@@ -1,0 +1,25 @@
+@media screen and (max-width: 425px) {
+
+    .nav-container{
+         flex-direction: column;
+        
+      
+    }
+    .list-container{
+        flex-direction: column;
+        margin: 1rem 0;
+       
+    }
+    .logo-container{
+        margin: 1rem 0;
+    }
+    .list-container li,.logo-container{
+        margin-bottom: 0.8rem;
+    }
+    .nav-btn{
+        margin-top: 1rem;
+    }
+
+
+
+}
