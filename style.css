@@ -105,9 +105,13 @@ background-clip: text;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+ 
+   
+  
 }
 .banner-img img{
-    width: 35rem;
+    width: 25rem;
     height: 100%;
 }
 .banner-desc{
@@ -123,8 +127,16 @@ margin: 1.3rem 0;
   background-color:   #4EC5F7;
 }
 .banner-content{
-    background-color: rgba(240, 248, 255, 0.884);
-    padding: 2rem;
+  background: url("images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  padding: 4rem;
+  
+ 
+}
+.banner-details{
+    padding: 0 2rem 2rem 2rem;
 }
 /* online games section */
 .online-games{
