@@ -122,4 +122,33 @@ font-size: 0.5rem;
 .play-content,.title,.desc{
     margin: 1rem auto;
 }
+/* games section styles */
+
+   .games-container{
+    width: 100%;
+    margin-top: 8rem;
+    flex-direction: row;
+
+   
+   
+}
+ .games-container img{
+width: 2rem;
+height: 2rem;
+
+}
+
+.games-desc{
+    font-size: 0.4rem;
+}
+.games-details:hover {
+    border: 1px solid #F948B2;
+    border-radius: 3rem;
+   .games-desc{
+    color: #FF42A5;
+   }
+}
+.hide{
+    display: none;
+}
 }
