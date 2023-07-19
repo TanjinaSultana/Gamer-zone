@@ -1,7 +1,7 @@
 @media screen and (max-width: 425px) {
     /* common shared style */
     .common-width{
-        max-width: 26.5rem;
+        max-width: 25rem;
         margin: 0 auto ;
     }
  /* header nav */
@@ -56,7 +56,7 @@ font-size: 0.5rem;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
-   /* padding: 2rem; */
+ 
    
 }
 .banner-content > .banner-details{
@@ -83,7 +83,7 @@ font-size: 0.5rem;
 }
 
 .card-play{
-  /* margin-left: 4.3rem; */
+ 
   
   padding: 1rem;
   margin: 0 auto;
@@ -220,4 +220,71 @@ height: 2rem;
    padding: 0.5rem 2.8rem 0 2.8rem;
    text-align: center;
 }
+}
+  
+
+/* tablet responsive */
+@media  screen and (min-width : 426px) and (max-width:768px){
+ /* header section */
+ .nav-container{
+    width: 50%;
+    margin: 0 auto;
+   flex-direction: column;
+   
+   
+ }
+ .logo-container{
+    margin: 1rem 0;
+}
+.list-container{
+   
+    margin: 1rem 0;
+   
+}
+.nav-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 0.3rem 1rem;
+}
+
+/* banner section */
+.banner-container{
+    flex-direction: column-reverse;
+    
+}
+.banner-content{
+    margin-top: 2rem;
+}
+  /* online-play section  */
+    .card-container{
+        grid-template-columns: repeat(2,1fr); 
+        width: 50%;
+        margin: 0 auto;
+        
+     }
+     .play-container{
+       
+
+        flex-direction: column;
+        
+    }
+    .play-content{
+        width: 50%;
+        margin: 0 auto;
+    }
+    /* games section */
+     .games-container{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 8rem;
+        gap: 0.3rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-bottom: 4rem;
+    
+       
+       
+    }
+
+
 }
