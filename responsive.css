@@ -1,7 +1,7 @@
 @media screen and (max-width: 425px) {
     /* common shared style */
     .common-width{
-        max-width: 25rem;
+        max-width: 26.5rem;
         margin: 0 auto ;
     }
  /* header nav */
@@ -125,7 +125,7 @@ font-size: 0.5rem;
 /* games section styles */
 
    .games-container{
-    width: 100%;
+    /* width: 100%; */
     margin-top: 8rem;
     flex-direction: row;
 
@@ -150,5 +150,30 @@ height: 2rem;
 }
 .hide{
     display: none;
+}
+/* footer section */
+.footer-container{
+   width: 50%;
+    padding: 2rem;
+    margin: 0 auto;
+   
+   
+}
+.footer-content{
+   grid-template-columns: repeat(3,1fr);
+   font-size: 0.4rem;
+}
+.footer-icons{
+    grid-template-columns: repeat(3,1fr);
+    font-size: 1.5rem;
+}
+.footer-policy{
+    grid-template-columns: repeat(2,1fr);
+    font-size: 0.5rem;
+}
+.footer-end-title{
+    font-size: 0.4rem;
+   padding: 0.5rem 2.8rem 0 2.8rem;
+   text-align: center;
 }
 }
