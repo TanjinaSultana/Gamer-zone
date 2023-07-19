@@ -85,4 +85,41 @@ font-size: 0.5rem;
     width: 16rem;
     height: 100%;
 }
+/* play section start */
+.play-container{
+    flex-direction: column;
+    
+}
+.play-container img{
+    width: 15rem;
+    height: 20rem;
+}
+.corner-img-container .corner-img{
+    width: 9rem;
+    height: 10rem;
+    
+}
+.play-img{
+    position: relative;
+    
+}
+.play-img .corner-img{
+   
+    top: 13rem;
+    right: 10rem;
+  
+}
+.play-content > .title{
+    text-shadow: 2px 2px 3px #0B0223;
+}
+.play-content , .title{
+    font-size: 1.5rem;
+}
+.play-content ,.desc{
+    font-size: 0.5rem;
+  
+}
+.play-content,.title,.desc{
+    margin: 1rem auto;
+}
 }
